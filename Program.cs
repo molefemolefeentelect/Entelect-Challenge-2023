@@ -1,7 +1,10 @@
 ﻿using System.Text;
 using System.Text.RegularExpressions;
 
-string input = File.ReadAllText(@"./exp/4.txt", Encoding.UTF8);
+string input1 = File.ReadAllText(@"./exp/1.txt", Encoding.UTF8);
+string input2 = File.ReadAllText(@"./exp/2.txt", Encoding.UTF8);
+string input3 = File.ReadAllText(@"./exp/3.txt", Encoding.UTF8);
+string input4 = File.ReadAllText(@"./exp/4.txt", Encoding.UTF8);
 
 static List<(int, int)> ParseInputString(string input)
 {
@@ -43,19 +46,39 @@ static int ParcelsRequired(double tMins)
         return (int)Math.Ceiling(x);
     }
 }
-List<(int, int)> tupleList = ParseInputString(input);
-//tupleList.ForEach(tuple => Console.WriteLine(tuple));
+List<(int, int)> tupleList1 = ParseInputString(input1).OrderBy(t => t.Item1).ThenBy(t => t.Item2).ToList();
+List<(int, int)> tupleList2 = ParseInputString(input2).OrderBy(t => t.Item1).ThenBy(t => t.Item2).ToList();
+List<(int, int)> tupleList3 = ParseInputString(input3).OrderBy(t => t.Item1).ThenBy(t => t.Item2).ToList();
+List<(int, int)> tupleList4 = ParseInputString(input4).OrderBy(t => t.Item1).ThenBy(t => t.Item2).ToList();
 
-string o = "[\n";
-for(int i = 0; i < tupleList.Count -1 ; i ++)
+
+static string Output(List<(int, int)> tupleList)
 {
-    var d = ManhatanDistance(tupleList[i], tupleList[i + 1]);
-    var p = ParcelsRequired(d);
-    if (i != tupleList.Count -1)
+    string o = "[\n";
+    for (int i = 0; i < tupleList.Count - 1; i++)
     {
-        o += $"[{p}, [{tupleList[i + 1]}]],\n";
-        //Console.WriteLine($"[{p}, {tupleList[i]}, {tupleList[i + 1]}],");
+        var d = ManhatanDistance(tupleList[i], tupleList[i + 1]);
+        var p = ParcelsRequired(d);
+        if (i != tupleList.Count - 1)
+        {
+            o += $"[{p}, [{tupleList[i + 1]}]],\n";
+            //Console.WriteLine($"[{p}, {tupleList[i]}, {tupleList[i + 1]}],");
+        }
     }
+    o += "]";
+    return o;
 }
-o += "]";
-Console.WriteLine(o);
+Console.WriteLine(1);
+Console.WriteLine(Output(tupleList1));
+Console.WriteLine();
+Console.WriteLine(2);
+Console.WriteLine(Output(tupleList2));
+Console.WriteLine();
+Console.WriteLine(3);
+Console.WriteLine(Output(tupleList3));
+Console.WriteLine();
+Console.WriteLine(4);
+Console.WriteLine(Output(tupleList4));
+
+
+
