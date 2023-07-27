@@ -1,0 +1,15 @@
+C:\Repositories\Entelect-Challenge-2023\bin\Debug\net7.0\Entelect-Challenge-2023.exe
+C:\Repositories\Entelect-Challenge-2023\bin\Debug\net7.0\Entelect-Challenge-2023.deps.json
+C:\Repositories\Entelect-Challenge-2023\bin\Debug\net7.0\Entelect-Challenge-2023.runtimeconfig.json
+C:\Repositories\Entelect-Challenge-2023\bin\Debug\net7.0\Entelect-Challenge-2023.dll
+C:\Repositories\Entelect-Challenge-2023\bin\Debug\net7.0\Entelect-Challenge-2023.pdb
+C:\Repositories\Entelect-Challenge-2023\obj\Debug\net7.0\Entelect-Challenge-2023.csproj.AssemblyReference.cache
+C:\Repositories\Entelect-Challenge-2023\obj\Debug\net7.0\Entelect-Challenge-2023.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositories\Entelect-Challenge-2023\obj\Debug\net7.0\Entelect-Challenge-2023.AssemblyInfoInputs.cache
+C:\Repositories\Entelect-Challenge-2023\obj\Debug\net7.0\Entelect-Challenge-2023.AssemblyInfo.cs
+C:\Repositories\Entelect-Challenge-2023\obj\Debug\net7.0\Entelect-Challenge-2023.csproj.CoreCompileInputs.cache
+C:\Repositories\Entelect-Challenge-2023\obj\Debug\net7.0\Entelect-Challenge-2023.dll
+C:\Repositories\Entelect-Challenge-2023\obj\Debug\net7.0\refint\Entelect-Challenge-2023.dll
+C:\Repositories\Entelect-Challenge-2023\obj\Debug\net7.0\Entelect-Challenge-2023.pdb
+C:\Repositories\Entelect-Challenge-2023\obj\Debug\net7.0\Entelect-Challenge-2023.genruntimeconfig.cache
+C:\Repositories\Entelect-Challenge-2023\obj\Debug\net7.0\ref\Entelect-Challenge-2023.dll

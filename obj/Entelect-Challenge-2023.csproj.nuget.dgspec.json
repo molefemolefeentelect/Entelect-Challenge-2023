@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Repositories\\Entelect-Challenge-2023\\Entelect-Challenge-2023.csproj": {}
+    "C:\\Repositories\\Entelect-Challenge-2023\\Entelect-Challenge-2023.csproj": {}
   },
   "projects": {
-    "c:\\Repositories\\Entelect-Challenge-2023\\Entelect-Challenge-2023.csproj": {
+    "C:\\Repositories\\Entelect-Challenge-2023\\Entelect-Challenge-2023.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Repositories\\Entelect-Challenge-2023\\Entelect-Challenge-2023.csproj",
+        "projectUniqueName": "C:\\Repositories\\Entelect-Challenge-2023\\Entelect-Challenge-2023.csproj",
         "projectName": "Entelect-Challenge-2023",
-        "projectPath": "c:\\Repositories\\Entelect-Challenge-2023\\Entelect-Challenge-2023.csproj",
+        "projectPath": "C:\\Repositories\\Entelect-Challenge-2023\\Entelect-Challenge-2023.csproj",
         "packagesPath": "C:\\Users\\deon.pieterse\\.nuget\\packages\\",
-        "outputPath": "c:\\Repositories\\Entelect-Challenge-2023\\obj\\",
+        "outputPath": "C:\\Repositories\\Entelect-Challenge-2023\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\deon.pieterse\\AppData\\Roaming\\NuGet\\NuGet.Config",
