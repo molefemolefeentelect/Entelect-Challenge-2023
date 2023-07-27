@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entelect-Challenge-2023", "Entelect-Challenge-2023.csproj", "{CE58C53E-D3C6-4E3B-85FB-6845B1BDECEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE58C53E-D3C6-4E3B-85FB-6845B1BDECEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE58C53E-D3C6-4E3B-85FB-6845B1BDECEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE58C53E-D3C6-4E3B-85FB-6845B1BDECEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE58C53E-D3C6-4E3B-85FB-6845B1BDECEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D397D3C8-7DCD-4839-B69E-D0D073FCA587}
+	EndGlobalSection
+EndGlobal
