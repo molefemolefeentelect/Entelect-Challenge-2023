@@ -31,7 +31,7 @@ static int ManhatanDistance((int x1, int y1) t1, (int x2, int y2) t2)
     return Math.Abs(t1.x1 - t2.x2) + Math.Abs(t1.y1 - t2.y2);
 }
 
-static int ParcelRequired(double tMins)
+static int ParcelsRequired(double tMins)
 {
     double x = tMins / 10.0;
     if (tMins % 10 < 5)
@@ -43,13 +43,19 @@ static int ParcelRequired(double tMins)
         return (int)Math.Ceiling(x);
     }
 }
-
 List<(int, int)> tupleList = ParseInputString(input);
-tupleList.ForEach(tuple => Console.WriteLine(tuple));
+//tupleList.ForEach(tuple => Console.WriteLine(tuple));
 
-Console.WriteLine(ParcelRequired(11));
-Console.WriteLine(ParcelRequired(14));
-Console.WriteLine(ParcelRequired(15));
-Console.WriteLine(ParcelRequired(18));
-Console.WriteLine(ParcelRequired(21));
-Console.WriteLine(ParcelRequired(26));
+string o = "[\n";
+for(int i = 0; i < tupleList.Count -1 ; i ++)
+{
+    var d = ManhatanDistance(tupleList[i], tupleList[i + 1]);
+    var p = ParcelsRequired(d);
+    if (i != tupleList.Count -1)
+    {
+        o += $"[{p}, {tupleList[i]}, {tupleList[i + 1]}],\n";
+        //Console.WriteLine($"[{p}, {tupleList[i]}, {tupleList[i + 1]}],");
+    }
+}
+o += "]";
+Console.WriteLine(o);
