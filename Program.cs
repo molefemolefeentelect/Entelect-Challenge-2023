@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using System.Text.RegularExpressions;
 
-string input = File.ReadAllText(@"./exp/1.txt", Encoding.UTF8);
+string input = File.ReadAllText(@"./exp/4.txt", Encoding.UTF8);
 
 static List<(int, int)> ParseInputString(string input)
 {
@@ -53,7 +53,7 @@ for(int i = 0; i < tupleList.Count -1 ; i ++)
     var p = ParcelsRequired(d);
     if (i != tupleList.Count -1)
     {
-        o += $"[{p}, {tupleList[i]}, {tupleList[i + 1]}],\n";
+        o += $"[{p}, [{tupleList[i + 1]}]],\n";
         //Console.WriteLine($"[{p}, {tupleList[i]}, {tupleList[i + 1]}],");
     }
 }
